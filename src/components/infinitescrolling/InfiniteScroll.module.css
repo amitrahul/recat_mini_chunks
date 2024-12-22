@@ -1,0 +1,12 @@
+.searchWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchWrapper input {
+  width: 60%;
+  padding: 15px;
+  border-radius: 50px;
+}
