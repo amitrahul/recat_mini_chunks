@@ -29,6 +29,7 @@ const TypeWriting = () => {
     setIsShow(false);
     setUserText("");
     setFinalTextValue("");
+    clearInterval(intervalid);
   };
   /*
    * whenever component is unmounted,then we have to clear the timer.
